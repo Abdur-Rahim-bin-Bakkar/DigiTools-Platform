@@ -6,6 +6,7 @@ import Rating from './components/Rating/Rating'
 import Footer from './components/Footer/Footer'
 import Workflow from './components/Workflow/Workflow'
 import Account from './components/Acount/Account'
+import Pricing from './components/Pricing/Pricing'
 
 function App() {
   // const [count, setCount] = useState(0)
@@ -16,6 +17,7 @@ function App() {
         <Hero/>
         <Rating/>
         <Account/>
+        <Pricing/>
         <Workflow/>
         <Footer/>
     </>
