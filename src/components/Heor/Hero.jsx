@@ -12,7 +12,7 @@ const Hero = () => {
                     src={image} className='h-120'
                 />
                 <div className='space-y-4'>
-                    <div style={{ textIndent: "20px", width: "350px" }} className='bg-[#E1E7FF] rounded-full p-1  '> <span className='bg-linear-to-r from-[#4F39F6] to-[#9514FA] bg-clip-text flex  items-center'><img src={badge} alt="" className='ml-4' /><span className='text-transparent font-medium'>New: AI-Powered Tools Available</span></span></div>
+                    <div style={{ textIndent: "20px", width: "350px" }} className='mx-auto md:ml-0 bg-[#E1E7FF] rounded-full p-1  '> <span className='bg-linear-to-r from-[#4F39F6] to-[#9514FA] bg-clip-text flex  items-center'><img src={badge} alt="" className='ml-4' /><span className='text-transparent font-medium'>New: AI-Powered Tools Available</span></span></div>
 
                     <h1 className="text-5xl font-bold ">Supercharge Your Digital Workflow</h1>
                     <p className=" text-[#627382]">
