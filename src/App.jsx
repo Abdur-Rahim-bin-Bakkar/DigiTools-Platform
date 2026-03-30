@@ -7,8 +7,11 @@ import Footer from './components/Footer/Footer'
 import Workflow from './components/Workflow/Workflow'
 import Account from './components/Acount/Account'
 import Pricing from './components/Pricing/Pricing'
+import Tabs from './components/Tabs/Tabs'
+import { useState } from 'react'
 
 function App() {
+  const [tab, setTab] = useState(true)
   // const [count, setCount] = useState(0)
 
   return (
@@ -16,6 +19,7 @@ function App() {
         <Navbar/>
         <Hero/>
         <Rating/>
+        <Tabs tab={tab} setTab={setTab} />
         <Account/>
         <Pricing/>
         <Workflow/>

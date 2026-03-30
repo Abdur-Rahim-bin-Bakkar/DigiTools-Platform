@@ -4,7 +4,7 @@ import check from '../../assets/Check.png'
 const Pricing = () => {
     return (
         <div className='py-10 px-3 '>
-            <h1 className='text-3xl font-bold text-center'>Simple, Transparent Pricing</h1>
+            <h1 className='text-3xl font-bold text-center mt-10'>Simple, Transparent Pricing</h1>
             <p className='text-[#627382] text-center mt-5'>Choose the plan that fits your needs. Upgrade or downgrade anytime.</p>
 
 
