@@ -22,7 +22,7 @@ function App() {
 
   return (
     <>
-      <Navbar />
+      <Navbar card={card} />
       <Hero />
       <Rating />
       <Tabs tab={tab} setTab={setTab} card={card} />

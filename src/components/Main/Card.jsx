@@ -25,7 +25,7 @@ const Card = ({ data, card, setCard }) => {
                 <h1 className='border border-[#F2F2F2] w-13 h-13 rounded-full flex justify-center items-center text-2xl'>{data.icon}</h1>
                 <h1 className='text-2xl font-bold'>{data.name}</h1>
                 <p className='my-4 text-[#627382]'>{data.description}</p>
-                <h3 className='text-[#627382]'><span className='text-2xl font-bold text-black'>{data.price}</span>/mo</h3>
+                <h3 className='text-[#627382]'><span className='text-2xl font-bold text-black'>${data.price}</span>/mo</h3>
                 <ul className='my-3 space-y-2'>
                     {
                         data.features.map((fet, i) => {
