@@ -14,8 +14,8 @@ const Hero = () => {
                 <div className='space-y-4'>
                     <div style={{ textIndent: "20px", width: "350px" }} className='mx-auto md:ml-0 bg-[#E1E7FF] rounded-full p-1  '> <span className='bg-linear-to-r from-[#4F39F6] to-[#9514FA] bg-clip-text flex  items-center'><img src={badge} alt="" className='ml-4' /><span className='text-transparent font-medium'>New: AI-Powered Tools Available</span></span></div>
 
-                    <h1 className="text-5xl font-bold ">Supercharge Your Digital Workflow</h1>
-                    <p className=" text-[#627382]">
+                    <h1 className=" text-3xl md:text-6xl font-bold ">Supercharge Your Digital Workflow</h1>
+                    <p className=" text-[#627382] max-w-[500px]">
                         Access premium AI tools, design assets, templates, and productivity
                         software—all in one place. Start creating faster today.
 
@@ -23,7 +23,7 @@ const Hero = () => {
                     </p>
                     <div className=" flex gap-4 justify-center md:justify-start">
                         <button className='btn rounded-full bg-linear-to-r from-[#4F39F6] to-[#9514FA] text-white font-bold'>Explore Products</button>
-                        <button className="btn btn-outline btn-primary rounded-full"><CiPlay1></CiPlay1> Watch Demo</button>
+                        <button className="btn btn-outline btn-primary rounded-full"><CiPlay1 className='text-lg font-bold'></CiPlay1> Watch Demo</button>
                     </div>
                 </div>
             </div>

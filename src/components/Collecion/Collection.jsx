@@ -1,5 +1,6 @@
 import React from 'react';
 import ColleCard from './ColleCard';
+import { toast } from 'react-toastify';
 
 const Collection = ({ card, setCard }) => {
     // console.log(card, setCard)
@@ -16,7 +17,12 @@ const Collection = ({ card, setCard }) => {
                     <h1 className='text-[#627382]'>Total</h1>
                     <h1 className='font-bold text-2xl'>${toatal}</h1>
                 </div>
-                <button className='btn  bg-linear-to-r from-[#4F39F6] to-[#9514FA] rounded-full text-white font-bold mt-3' onClick={()=> setCard([])}>Proceed to Checkout</button>
+                <button onClickCapture={()=> {
+                    if(card.length>0){
+
+                        toast.warning('All card clear')
+                    }
+                }} className='btn  bg-linear-to-r from-[#4F39F6] to-[#9514FA] rounded-full text-white font-bold mt-3' onClick={()=> setCard([])}>Proceed to Checkout</button>
             </div>
         </div>
     );

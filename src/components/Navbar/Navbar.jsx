@@ -32,7 +32,7 @@ const Navbar = ({card}) => {
 
                 </ul>
             </div>
-            <div className="navbar-end flex gap-3">
+            <div className="navbar-end flex gap-5">
                 {
                     card.length> 0 && <div className="relative boder">
                     <div className='absolute -top-3 -right-4 bg-red-500 font-bold w-6 rounded-full flex justify-center items-center h-6 text-white'>{card.length}</div>
