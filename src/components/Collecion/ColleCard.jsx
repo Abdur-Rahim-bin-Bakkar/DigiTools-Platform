@@ -18,7 +18,7 @@ const ColleCard = ({ data, card, setCard }) => {
                     <p className='text-[#627382]'>{data.price}/mo</p>
                 </div>
             </div>
-            <h1 className='text-[#FF3980] font-bold' onClick={filterData}>Remove</h1>
+            <h1 className='text-[#FF3980] font-bold ' onClick={filterData}>Remove</h1>
         </div>
     );
 };

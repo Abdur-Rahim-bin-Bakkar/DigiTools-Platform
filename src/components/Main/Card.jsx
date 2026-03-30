@@ -19,7 +19,8 @@ const Card = ({ data, card, setCard }) => {
 
     }
     return (
-        <div className='card p-5 m-4 border-2 border-[#F2F2F2]'>
+        <div className='card p-5 m-4 border-2 border-[#F2F2F2] relative'>
+            <div className={`absolute top-1  right-1 badge badge-soft ${data.tag === "New" && 'badge-success'} ${data.tag==="Best Seller" && 'badge-warning '} ${data.tag==="Popular" && "badge-primary"} font-bold`}>{data.tag}</div>
             <div className="flex-1">
                 <h1 className='border border-[#F2F2F2] w-13 h-13 rounded-full flex justify-center items-center text-2xl'>{data.icon}</h1>
                 <h1 className='text-2xl font-bold'>{data.name}</h1>

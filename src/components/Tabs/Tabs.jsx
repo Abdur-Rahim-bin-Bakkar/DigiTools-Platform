@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Tabs = ({tab, setTab}) => {
+const Tabs = ({tab, setTab,card}) => {
     return (
         <div className='pt-12 pb-5 text-center'>
             <h1 className='font-bold text-3xl'>Premium Digital Tools</h1>
@@ -10,7 +10,7 @@ const Tabs = ({tab, setTab}) => {
             <div className="tabs tabs-box bg-transparent justify-center gap-3 w-56 mx-auto border border-[#F6F6F6] rounded-full mt-3">
                 <input onClick={()=> setTab(true)} type="radio" name="my_tabs_1" className={`tab w-25 rounded-full ${tab&& 'bg-linear-to-r from-[#4F39F6] to-[#9514FA] text-white'} font-bold`} aria-label="Products"/>
                 
-                <input onClick={()=> setTab(false)} type="radio" name="my_tabs_1" className={`tab w-25 rounded-full ${tab || 'bg-linear-to-r from-[#4F39F6] to-[#9514FA] text-white'} `} aria-label={`Cart (2)`} defaultChecked />
+                <input onClick={()=> setTab(false)} type="radio" name="my_tabs_1" className={`tab w-25 rounded-full ${tab || 'bg-linear-to-r from-[#4F39F6] to-[#9514FA] text-white'} `} aria-label={`Cart (${card.length})`} defaultChecked />
                 
             </div>
 

@@ -25,7 +25,7 @@ function App() {
       <Navbar />
       <Hero />
       <Rating />
-      <Tabs tab={tab} setTab={setTab} />
+      <Tabs tab={tab} setTab={setTab} card={card} />
       {tab && <Suspense fallback={<span className='loading fixed top-[50%] left-[50%]'></span>}>
         <Main fetchData={fetchData} card={card} setCard={setCard} />
       </Suspense>}
