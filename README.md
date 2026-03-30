@@ -14,14 +14,8 @@
 * CSS 
 
 
-# Features about the project:
-## 🚀 Pricing / Product Card Project
 
-A modern and responsive product pricing card system built using React and Tailwind CSS. This project dynamically displays products with filtering, tagging, and price calculation features.
-
----
-
-## ✨ Features
+# ✨ Features
 * Access to AI Tools & Digital Products – Users can use tools like AI writing, SEO tools, and video editing to simplify their work.
 * Premium Templates & Assets – Users get ready-made design templates, stock assets, and social media content resources.
 * Automation & Productivity Boost – Users can automate tasks and work more efficiently with advanced productivity tools.
