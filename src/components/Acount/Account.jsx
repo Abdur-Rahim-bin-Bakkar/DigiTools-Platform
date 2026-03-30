@@ -5,7 +5,7 @@ import pack from '../../assets/package.png'
 
 const Account = () => {
     return (
-        <div className='bg-[#F9FAFC] py-15 md:px-5 text-center'>
+        <div className='bg-[#F9FAFC] py-15  text-center md:px-25'>
             <h1 className='text-2xl font-bold'>Get Started in 3 Steps</h1>
             <p className='text-[#627382] py-5'>Start using premium digital tools in minutes, not hours.</p>
             <div className="grid md:grid-cols-3 p-4 gap-5">
