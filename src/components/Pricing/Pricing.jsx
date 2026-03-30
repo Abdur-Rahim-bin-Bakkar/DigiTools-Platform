@@ -17,7 +17,7 @@ const Pricing = () => {
                         <p className='text-[#627382] my-3'>Perfect for getting started</p>
                         <span className="text-xl text-[#627382]"><span className='font-bold text-3xl text-black'>$0</span>/Month</span>
 
-                        <ul className="mt-6 flex flex-col gap-2 text-xs text-[#627382] font-medium">
+                        <ul className="mt-6 flex flex-col gap-2 text-xs text-[#627382] font-medium flex-1">
                             <li>
                                 <svg xmlns="http://www.w3.org/2000/svg" className="size-4 me-2 inline-block text-success" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" /></svg>
                                 <span>Access to 10 free tools</span>
