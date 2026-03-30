@@ -97,18 +97,12 @@ This is a **dynamic product/pricing system** where users can explore products, f
 
 ## 📷 Preview
 
-(Add your project screenshot here)
+![Preview](./src/assets/Screenshot%202026-03-30%20175121.png)
 
 ---
 
 ## 🔗 Live Link
 
-(Add your live site link here)
+https://digital-tools-shop.netlify.app/
 
----
 
-## 📁 GitHub Repository
-
-(Add your repo link here)
-
----
