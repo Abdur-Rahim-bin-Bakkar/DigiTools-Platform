@@ -1,16 +1,114 @@
-# React + Vite
+# Project Name: digital tools shop
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Description:
+###  A modern and responsive product pricing card system built with React and Tailwind CSS. It features dynamic product display, filtering by tags, and total price calculatio
 
-Currently, two official plugins are available:
+# Technology:
+* React JS
+* Tailwind CSS
+* Daisy UI
+* Java Script 
+* HTML5
+* CSS 
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
 
-## React Compiler
+# Features about the project:
+## 🚀 Pricing / Product Card Project
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+A modern and responsive product pricing card system built using React and Tailwind CSS. This project dynamically displays products with filtering, tagging, and price calculation features.
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## ✨ Features
+
+### 📦 Dynamic Product Listing
+
+* Products are loaded from JSON data
+* UI is generated dynamically using `.map()`
+
+### 🏷️ Tag System
+
+* Each product has tags like **Popular**, **New**, and **Best Seller**
+* Tags are visually highlighted
+
+### 🔍 Filtering System
+
+* Filter products by category:
+
+  * Popular
+  * New
+  * Best Seller
+* Built using JavaScript `.filter()`
+
+### 💰 Price Calculation
+
+* Calculate total price of selected items
+* Uses `.reduce()` method
+
+```js
+const total = cart.reduce((sum, item) => sum + item.price, 0)
+```
+
+### 🧾 Feature List
+
+* Each product includes multiple features
+* Displayed as a list in UI
+
+### 📱 Responsive Design
+
+* Fully responsive for mobile, tablet, and desktop
+* Built with Tailwind CSS
+
+### 🎨 Modern UI
+
+* Clean card layout
+* Hover effects and smooth design
+
+### ⚡ Reusable Components
+
+* Modular and reusable React components
+* Clean and scalable code structure
+
+### 🛒 Add to Cart (Optional)
+
+* Users can select products
+* Cart state can be managed easily
+
+### 🎯 Icon Support
+
+* Each product includes an icon
+* Improves visual appearance
+
+---
+
+## 🛠️ Technologies Used
+
+* React.js
+* Tailwind CSS
+* JavaScript (ES6)
+
+---
+
+## 📌 Summary
+
+This is a **dynamic product/pricing system** where users can explore products, filter them by tags, and calculate total price easily.
+
+---
+
+## 📷 Preview
+
+(Add your project screenshot here)
+
+---
+
+## 🔗 Live Link
+
+(Add your live site link here)
+
+---
+
+## 📁 GitHub Repository
+
+(Add your repo link here)
+
+---

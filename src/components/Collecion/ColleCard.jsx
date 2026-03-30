@@ -15,7 +15,7 @@ const ColleCard = ({ data, card, setCard }) => {
                 <h1 className='border border-[#F2F2F2] w-13 h-13 rounded-full flex justify-center items-center text-2xl bg-white'>{data.icon}</h1>
                 <div className="">
                     <h2 className='font-bold text-lg'>{data.name}</h2>
-                    <p className='text-[#627382]'>{data.price}/mo</p>
+                    <p className='text-[#627382]'>{data.price}/{data.period}</p>
                 </div>
             </div>
             <h1 className='text-[#FF3980] font-bold ' onClick={filterData}>Remove</h1>
