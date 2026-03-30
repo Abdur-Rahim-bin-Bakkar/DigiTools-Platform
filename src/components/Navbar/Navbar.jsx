@@ -1,7 +1,7 @@
 import React from 'react';
 import { FiShoppingCart } from 'react-icons/fi';
 
-const Navbar = ({card}) => {
+const Navbar = ({ card }) => {
     return (
         <div className="navbar bg-base-100  md:px-25 fixed top-0 z-50">
             <div className="navbar-start">
@@ -33,12 +33,15 @@ const Navbar = ({card}) => {
                 </ul>
             </div>
             <div className="navbar-end flex gap-5">
-                {
-                    card.length> 0 && <div className="relative boder">
-                    <div className='absolute -top-3 -right-4 bg-red-500 font-bold w-6 rounded-full flex justify-center items-center h-6 text-white'>{card.length}</div>
+                <div className="relative boder">
+                    {
+                        card.length > 0 &&
+                        <div className='absolute -top-3 -right-4 bg-red-500 font-bold w-6 rounded-full flex justify-center items-center h-6 text-white'>{card.length}</div>
+
+
+                    }
                     <FiShoppingCart className='text-2xl'></FiShoppingCart>
                 </div>
-                }
                 <p className='text-[#101727]'>Login</p>
                 <a className="btn bg-linear-to-r from-[#4F39F6] to-[#9514FA] rounded-full text-white font-semibold">Get Started</a>
 
