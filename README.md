@@ -30,6 +30,6 @@
 
 ## 🔗 Live Link
 
-https://digital-tools-shop.netlify.app/
+https://digital-tools-shopp.netlify.app/
 
 
